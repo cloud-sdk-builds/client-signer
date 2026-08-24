@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-signer`](https://www.npmjs.com/package/@aws-sdk/client-signer/v/3.1116.0).
+[`@aws-sdk/client-signer`](https://www.npmjs.com/package/@aws-sdk/client-signer/v/3.1117.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-signer - [https://cloud-sdk-builds.github.io/?sdk=client-signer](https://cloud-sdk-builds.github.io/?sdk=client-signer)
-- @aws-sdk/client-signer v3.1116.0 - [https://cloud-sdk-builds.github.io/?sdk=client-signer&version=3.1116.0](https://cloud-sdk-builds.github.io/?sdk=client-signer&version=3.1116.0)
+- @aws-sdk/client-signer v3.1117.0 - [https://cloud-sdk-builds.github.io/?sdk=client-signer&version=3.1117.0](https://cloud-sdk-builds.github.io/?sdk=client-signer&version=3.1117.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-signer@3.1116.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-signer@3.1117.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-yd5rNffmrSLC9kA6fl2/o8/apxX+OHMH75JD8FxqVMWGIrt9CEv9pM6t4YsVGIpP
+sha384-0GMQaE6cntvfyApIWltDvpj3Q9NIfKyDrMfzSq0RefdYslyp7Q4o2w1IkCyT0pu0
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-signer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-signer@3.1116.0/index.min.mjs"
+            "@aws-sdk/client-signer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-signer@3.1117.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-signer@3.1116.0/index.min.mjs": "sha384-yd5rNffmrSLC9kA6fl2/o8/apxX+OHMH75JD8FxqVMWGIrt9CEv9pM6t4YsVGIpP"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-signer@3.1117.0/index.min.mjs": "sha384-0GMQaE6cntvfyApIWltDvpj3Q9NIfKyDrMfzSq0RefdYslyp7Q4o2w1IkCyT0pu0"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-signer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-signer@3.1116.0/index.min.mjs"
+                        "@aws-sdk/client-signer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-signer@3.1117.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-signer@3.1116.0/index.min.mjs": "sha384-yd5rNffmrSLC9kA6fl2/o8/apxX+OHMH75JD8FxqVMWGIrt9CEv9pM6t4YsVGIpP"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-signer@3.1117.0/index.min.mjs": "sha384-0GMQaE6cntvfyApIWltDvpj3Q9NIfKyDrMfzSq0RefdYslyp7Q4o2w1IkCyT0pu0"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1116.0`)
+* Always pin to a specific version (`@3.1117.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-signer/blob/refs/tags/3.1116.0/LICENSE
+https://github.com/cloud-sdk-builds/client-signer/blob/refs/tags/3.1117.0/LICENSE
 ```
 
 ---
